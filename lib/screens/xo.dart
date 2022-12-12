@@ -25,8 +25,8 @@ int player2Score=0;
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                Text("${args.p1} : $player1Score",style: TextStyle(fontSize: 24,fontWeight: FontWeight.bold)),
-                Text("${args.p2} : $player2Score",style: TextStyle(fontSize: 24,fontWeight: FontWeight.bold)),
+                Text("${args.p1} : $player1Score",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,color: Colors.red)),
+                Text("${args.p2} : $player2Score",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold)),
               ],
             ),
           ),
